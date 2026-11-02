@@ -1,0 +1,3 @@
+# Bloqueo estricto de indexación para entorno de pruebas (dev-uwchihuahua.dataholics.com.mx)
+User-agent: *
+Disallow: /
