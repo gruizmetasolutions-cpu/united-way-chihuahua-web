@@ -1,6 +1,6 @@
 # Ticket: [TKT-XXX] [Título descriptivo del cambio]
 
-**Tenant Resolve ServiceDesk**: `United Way — Portal Web` (`slug: uw-portal`)  
+**Project Name**: `United Way Chihuahua Web (DEV-UWCHIHUAHUA)`  
 **Autor / Rama**: [Nombre de rama o feature]  
 **Módulos Afectados**: [Módulos o dominio de negocio impactado]  
 **Tipo de Cambio**: [Feature UI | Fix | Refactor | Modificación Backend | Migración BD | Arquitectura]  
