@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #21296B;
+  --color-brand-royal: #0044B5;
+  --color-brand-mid: #5082F0;
+  --color-brand-sky: #A7D2FF;
+  --color-brand-cream: #EDE8DA;
+  --color-brand-red: #FD372C;
+  --color-brand-red-hover: #D12626;
+  --color-brand-dark: #221E1F;
+  --color-brand-muted: #838694;
+  --color-brand-light: #F4F4F4;
+
+  --color-pillar-yellow: #FFBA00;
+  --color-pillar-orange: #F47925;
+  --color-pillar-green: #009464;
+  --color-pillar-purple: #6C76D3;
+
+  --font-display: 'Antonio', sans-serif;
+  --font-heading: 'Nunito Sans', sans-serif;
+  --font-body: 'Palanquin', 'Nunito Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  color: var(--color-brand-dark);
+  background-color: #ffffff;
+}
+
+/* Clases de tipografía de utilidad */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
