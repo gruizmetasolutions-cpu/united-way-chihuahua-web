@@ -54,3 +54,21 @@
 | [`TKT-039`](./TKT-039.md) | ⏳ Pendiente | `/lista-golf-2026/` | Ruta #36 — Evento Especial /lista-golf-2026/ (Tabla Interactiva de Jugadores y Equipos Inscritos) |
 | [`TKT-040`](./TKT-040.md) | ⏳ Pendiente | `/colombia-nos-une/` | Ruta #37 — Emergencia /colombia-nos-une/ + Construcción de Plantilla Maestra CampanaEmergenciaTemplate.tsx (Givecloud Embed) |
 | [`TKT-041`](./TKT-041.md) | ⏳ Pendiente | `/unidos-por-venezuela/` | Ruta #38 — Emergencia /unidos-por-venezuela/ (Campaña Humanitaria sobre Plantilla Maestra Givecloud) |
+
+---
+
+### Fase 3: Adecuaciones de Identidad de Marca y Auditoría UX/UI 2026 (TKT-042 al TKT-051)
+*Basadas en la Auditoría Profunda contra el Manual Oficial de Marca ([`docs/arquitectura/08-auditoria-identidad-marca-uwch.md`](../arquitectura/08-auditoria-identidad-marca-uwch.md))*
+
+| Folio Ticket | Estatus | Ámbito de Aplicación | Título Oficial y Alcance Técnico |
+| :---: | :---: | :--- | :--- |
+| [`TKT-042`](./TKT-042.md) | ⏳ Pendiente | `Header`, `Footer`, `Modal`, `Favicon` | UI/BRAND: Sustitución de Logotipo Placeholder por Lockups Oficiales Saul Bass 2024 (Circle of Hope y 35 Aniversario) en Header, Footer, Modal y Favicon |
+| [`TKT-043`](./TKT-043.md) | ⏳ Pendiente | `index.css`, `@theme`, Componentes | UI/BRAND: Implementación de la Matriz Cromática Oficial de 20 Muestras Pantone (--color-uwch-*) en Tailwind CSS v4 (@theme) y Variables Globales |
+| [`TKT-044`](./TKT-044.md) | ⏳ Pendiente | Accesibilidad Global (WCAG 2.1) | A11Y/BRAND: Corrección de 12 Violaciones Críticas WCAG 2.1 (Texto Blanco #FFFFFF sobre Fondo Dorado #FFBA00 y Texto Dorado sobre Blanco) |
+| [`TKT-045`](./TKT-045.md) | ⏳ Pendiente | CTAs de Conversión Primaria | UI/BRAND: Estandarización del Botón Oficial "Únete / Voluntariado" en Dorado (#FFBA00 + Texto #221E1F) vs. Botón "Donar Ahora" en Rojo (#FD372C) |
+| [`TKT-046`](./TKT-046.md) | ⏳ Pendiente | Tipografía Global (28 vistas) | UI/BRAND: Blindaje Tipográfico Saul Bass — Regla Estricta ALL-CAPS en Antonio Bold (28 Instancias) y Jerarquía Palanquin en Subtítulos y Cuerpo |
+| [`TKT-047`](./TKT-047.md) | ⏳ Pendiente | Portada y `/contacto-empresas/` | UI/BRAND: Implementación del Componente Normado de Co-Branding Corporativo (Paridad de Altura, Línea Divisoria #CCCCCC y Margen U) |
+| [`TKT-048`](./TKT-048.md) | ⏳ Pendiente | `ImpactSelector`, Fondos y Plantillas | UI/BRAND: Geometría Derivada del Logotipo (El Arco, La Flecha y El Círculo Limpio) y Eliminación de Dianas Concéntricas (Bullseyes) y Efectos Blur |
+| [`TKT-049`](./TKT-049.md) | ⏳ Pendiente | Acervo Fotográfico y Multimedia | UI/BRAND: Sustitución de las 64 Fotografías de Stock de Unsplash por Acervo Fotográfico Auténtico de Chihuahua y Anclaje Facial 100% (object-[center_25%]) |
+| [`TKT-050`](./TKT-050.md) | ⏳ Pendiente | Enrutador Principal (`App.tsx`) | FEAT/ROUTING: Registro de los 16 Slugs Canónicos Oficiales de Programas de uwchihuahua.org (TKT-015..TKT-030) que actualmente devuelven 404 en Vivo |
+| [`TKT-051`](./TKT-051.md) | ⏳ Pendiente | `index.html`, `robots.txt`, Redes | SEO/BRAND: Inyección de Bloqueo noindex/nofollow en <head> de Pruebas + Contactos Oficiales de Marca y 6 Redes Sociales (@unitedwaychihuahua) |
